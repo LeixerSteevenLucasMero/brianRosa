@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  background-color: white;
+  width: 470px; /* Cambiar el valor del ancho según tus necesidades */
+  height: 470px; /* Cambiar el valor de la altura según tus necesidades */
+  padding: 100px;
+  border: none;
+  display: flex;
+  margin-right: 0;
+}
+
+.form-content {
+  flex: 1;
+  max-width: 600px;
+   /* Cambiar el valor del ancho según tus necesidades */
+
+
+}
+
+.form-left {
+  flex: 1;
+}
+
+
+
+.register-form {
+  flex: 2;
+  border: none;
+  font-family: Cambria, serif;
+  font-weight: bold;
+  width: 150%;
+  height: 480px;
+  padding-right: 20rem;
+   /* Cambia el valor según tus necesidades */
+   
+}
+
+.register-form button {
+  width: 70%;
+  margin-top: 2rem ;
+  margin-left:3.5rem ;
+  background-color: #0D506E;
+  color: rgb(253, 253, 253);
+  font-style: italic;
+  border: none;
+  text-align: center;
+}
+.register-form .register-link {
+  font-style: italic;
+  color: #808080;
+  width: 100%;
+  font-size: 20px; /* Cambia el valor según tus necesidades */
+}
+.form-container .ant-form-item-label label {
+  font-style: italic;
+  font-size: 18px;
+  color: #808080;
+}
+
+.form-container .ant-form-item-label label.ant-form-item-required::before {
+  display: none;
+}
+
+.register-form button:hover {
+ 
+  background-color: #8e9fa7; /* Cambia "yourDesiredColor" al color deseado */
+}
+.register-form h3 {
+  margin-bottom: 200; /* Cambiamos el valor a 0 para eliminar el salto de línea */
+  color: #0D506E;
+  font-style: italic;
+}
+
+.right-container {
+  background-color: #5e8ba0;
+  flex: 1;
+  height: 90.9%;
+  display: none;
+  height: 470px;
+  max-width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 9rem; 
+}
+
+.right-container img {
+  max-width: 100%;
+  height: 470px;
+  opacity: 0.65;
+  border-radius: 17%;
+  animation-name: slideIn;
+  animation-duration: 2xs;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 0.65;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 767px) {
+  .form-container {
+    width: 100%;
+    max-width: 450px; /* Cambiar el valor del ancho según tus necesidades */
+    margin-right: 0; /* Espacio entre el formulario y el contenedor derecho */
+  }
+
+  .right-container {
+    display: none;
+  }
+}
+.mr-2{
+  margin-left: 0.4rem;
+}
+.cambria-font {
+  font-family: Cambria, serif;
+  font-size: medium;
+  font-style: italic;
+}
+.cambria-fonte {
+  color: #0D506E;
+}
+.register-form .contraseña-link {
+  font-style: italic;
+  color: #0D506E;
+  width: 100%;
+  font-size: 20px; /* Cambia el valor según tus necesidades */
+}

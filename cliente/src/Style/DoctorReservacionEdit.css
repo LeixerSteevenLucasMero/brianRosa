@@ -1,0 +1,30 @@
+
+.form-control {
+    /* Cambiar el tamaño de la altura de los campos de entrada */
+    height: 40px;
+  }
+  
+  .select-control {
+    /* Cambiar el tamaño de la altura del campo de selección */
+    height: 40px;
+  }
+  
+  .custom-form-control {
+    /* Cambiar el tamaño de la altura de los campos personalizados */
+   
+    width: 400px !important;
+    margin-left: 2px !important;
+    margin-right: auto !important;
+  }
+  
+  .custom-label {
+    /* Cambiar el tamaño de la fuente de las etiquetas */
+    font-size: 14px;
+  }
+  
+  .custom-button {
+    /* Cambiar el tamaño de los botones */
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  

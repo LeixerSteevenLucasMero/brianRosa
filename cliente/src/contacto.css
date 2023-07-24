@@ -1,0 +1,102 @@
+.c-primary-text {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  max-width: 1100px;
+  color: #6a6a6a;
+  margin: 2.5rem 0rem;
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 2.64rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.c-primary-text:hover {
+  background-color: #e8e8e8;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.c-primary-text {
+  text-align: center;
+  max-width: 80%;
+  
+}
+
+.c-primary-subheading {
+  font-weight: 900;
+  color: #0D506E;
+  font-size: 5.15rem;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  
+}
+
+.contacto-section-image-container {
+  position: relative;
+  display: flex;
+  flex: 0.1;
+  
+}
+
+.c-secundary-subheading {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.contacto-section-container {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.primer-titulo {
+  color: #0D506E;
+  font-size: 2.15rem;
+  font-weight: 900;
+  color: #0D506E;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  
+  
+}
+.primary-subheading {
+  text-align: center;
+  margin-top: 1rem;
+
+}
+.c-primary-text {
+  font-size: clamp(1rem, 3vw, 1.4rem);
+  max-width: 470px;
+  color: #6a6a6a;
+  margin: 1.5rem 0rem;
+  text-align: center;
+  margin-top: 0rem;
+  margin-right: 5rem;
+  font-style: italic;
+ 
+  
+}
+@media (max-width: 768px) {
+  .c-primary-text {
+
+    margin-right: 5rem;
+    text-align: center;
+    margin: 2rem 0rem; 
+  }
+}
+@media (max-width: 768px) {
+  .c-secundary-subheading {
+    padding-top: 0rem; /* Mismo valor de padding-top en dispositivos móviles */
+  }
+}

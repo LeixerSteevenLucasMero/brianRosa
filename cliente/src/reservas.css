@@ -1,0 +1,79 @@
+.alert-container {
+  position: fixed;
+  top: 2rem; /* Ajusta el espacio superior según tus necesidades */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  z-index: 9999;
+}
+
+.form-container {
+  max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 0 auto;
+}
+
+.work-section-wrapper {
+  margin-top: 4rem; /* Ajusta el espacio superior según tus necesidades */
+}
+
+.work-section-bottom {
+  margin-top: -1rem; /* Ajusta el espacio superior según tus necesidades */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work-section-info {
+  max-width: 500px; /* Ajusta el ancho máximo según tus necesidades */
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#work-section-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#fechaConsulta,
+#hora,
+#cedula,
+#nombre,
+#apellido,
+#telefono {
+  width: 150%; /* Ajusta el ancho deseado */
+  margin-left: -25%;
+  margin-right: auto;
+}
+
+.form-label {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0D506E;
+}
+
+.btn-primary.custom-button {
+  background-color: #0D506E;
+  border-color: #0D506E;
+  color: #fff;
+}
+
+.form-control {
+  font-weight: bold;
+  font-style: italic;
+}
+/* reservas.css */
+/* Other existing styles... */
+
+/* Calendar container */
+
+
+/* Form container */
+
+
+/* Other existing styles... */
+/* Custom styles for FullCalendar */

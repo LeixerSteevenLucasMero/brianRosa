@@ -1,0 +1,120 @@
+.my-custom-table {
+  margin: 20px;
+  position: relative;
+  height: 400px; /* Altura fija del contenedor de la tabla */
+  overflow-y: auto; /* Oculta la barra de desplazamiento vertical */
+
+}
+
+
+.my-custom-table h2 {
+  margin-bottom: 10px;
+}
+
+.my-custom-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.my-custom-table th,
+.my-custom-table td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.my-custom-table thead {
+  background-color: #343a40;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.my-custom-table th {
+  font-weight: bold;
+}
+
+.my-custom-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.my-custom-table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.my-custom-table .btn {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.my-custom-table .actions-container {
+  white-space: nowrap;
+  overflow-x: hidden;
+  
+}
+
+.my-custom-table .actions-container .btn {
+  margin-right: 5px;
+  overflow-x: hidden;
+
+}
+
+.my-custom-table .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+.my-custom-table .custom-select {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 8px;
+  width: 50px;
+}
+.my-custom-table .btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.my-custom-table .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+}
+
+.my-custom-table .btn-gear {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+  
+}
+
+.my-custom-table .btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.my-custom-table .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
+
+.my-custom-table .btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-success {
+  padding: 10px 20px;
+  background-color: #434ff6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 20px; /* Mueve el botón hacia la derecha */
+}

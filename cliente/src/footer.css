@@ -1,0 +1,70 @@
+
+.footer-section-columns .footer-logo-container img {
+  width: 200px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: auto;
+
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra alrededor de la imagen */
+  margin-left: -20px;
+/* Mueve la imagen hacia la izquierda */
+}
+
+.footer-wrapper {
+  background-color: #0a374d;
+  color: #fff;
+  padding: 13px;
+  margin-bottom: 0; /* Eliminar espacio al final de la página */
+  /* margin-bottom: 50px; Agregar espacio blanco debajo del footer */
+}
+
+
+
+.footer-section-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-logo-containerf {
+  display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 5rem;
+width: 200px; 
+}
+
+.footer-icons {
+  display: flex;
+  gap: 40px;
+  
+}
+
+.footer-icons svg {
+  color: #c4c4c4;
+  font-size: 20px;
+}
+
+.footer-section-two {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section-columns a {
+  color: #fff;
+ 
+ 
+}
+
+
+.footer-section-columns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-section-columns span {
+  font-size: 14px;
+  color: #f7f7f7;
+  font-weight: bold;
+  font-style: italic;
+}

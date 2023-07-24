@@ -1,0 +1,90 @@
+.containerc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 150vh; /* Cambiamos 'height' a 'min-height' */
+  overflow: auto; /* Añadimos 'overflow: auto' para agregar barras de desplazamiento si es necesario */
+}
+
+.modal-body .custom-form-control {
+  width: 400px !important;
+  margin-left: 2px !important;
+  margin-right: auto !important;
+}
+
+.calendar-container {
+  width: 1000px;
+  margin-top: 20px; /* Ajusta la posición vertical según tus necesidades */
+}
+
+
+.calendar-filter {
+  top: 0;
+  left: 0;
+  margin-top: 1rem;
+  padding: 1rem;
+  z-index: 999;
+  margin-right: 2rem;
+
+
+  
+}
+
+.calendar-filter button {
+  margin-right: 0.5rem;
+}
+.crear-reserva-btn{
+  margin-left: 33rem;
+
+  
+
+}
+.calendar-filter button.active {
+  background-color: #0D506E;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0D506E;
+  font-family: Cambria;
+  font-style: italic;
+}
+
+.fc {
+  background-color: white;
+}
+
+.fc-daygrid-event {
+  background-color: #e2e2e2;
+  color: #333;
+  border-color: #ccc;
+}
+
+.fc-daygrid-event:hover {
+  background-color: #d0d0d0;
+}
+
+.fc-daygrid-event-dot {
+  background-color: #888;
+}
+
+.fc-daygrid-event.fc-event-past {
+  background-color: #f8f8f8;
+  color: #bbb;
+  border-color: #ddd;
+}
+
+.fc-daygrid-event.fc-event-today {
+  background-color: #ffe6b3;
+  color: #333;
+  border-color: #ffc966;
+}
+
+.fc-daygrid-event.fc-event-future {
+  background-color: #fff5e6;
+  color: #333;
+  border-color: #ffd699;
+}

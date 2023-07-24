@@ -1,0 +1,119 @@
+/* Styles for the primary container */
+.container-principal {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on all screens */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the secondary form container */
+  .form-container-secundario {
+    background-color: white;
+    width: 100%; /* Set to full width on all screen sizes */
+    max-width: 700px; /* Maximum width for larger screens */
+    margin: 2rem auto; /* Add margin to center the form container vertically */
+    padding: 50px; /* Adjust the top and bottom padding for better spacing */
+    border: none;
+    display: flex;
+    flex-direction: column; /* Arrange form elements vertically on all screens */
+    align-items: center; /* Center elements horizontally on all screens */
+  }
+  
+  /* Styles for the form content */
+  .right-container2 {
+    flex: 1;
+    width: 100%; /* Set to full width on all screen sizes */
+    max-width: 600px; /* Maximum width for larger screens */
+    max-height: 680px;
+  }
+  
+  /* Styles for the register form section 2 */
+  .register-form-2 {
+    flex: 2;
+    border: none;
+    font-family: Cambria, serif;
+    font-weight: bold;
+    width: 100%; /* Set to full width on all screen sizes */
+    max-width: 100%; /* Maximum width for larger screens */
+    height: auto; /* Allow the height to adjust based on content */
+    padding-right: 0; /* Remove right padding on all screens */
+  }
+  
+  .register-form-2 button {
+    width: 70%;
+    max-width: 300px; /* Limit the button width on larger screens */
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto; /* Center the button horizontally on all screens */
+    display: block; /* Ensure the button takes full width on all screens */
+    background-color: #0D506E;
+    color: rgb(253, 253, 253);
+    font-style: italic;
+    border: none;
+    text-align: center;
+  }
+  
+  .register-form-2 .register-link {
+    font-style: italic;
+    color: #808080;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .form-container-secundario .ant-form-item-label label {
+    font-style: italic;
+    font-size: 18px;
+    color: #808080;
+  }
+  
+  .form-container-secundario .ant-form-item-label label.ant-form-item-required::before {
+    display: none;
+  }
+  
+  .register-form-2 button:hover {
+    background-color: #8e9fa7;
+  }
+  
+  .form-content2 {
+    flex: 1; /* Take remaining space of the container */
+    max-width: 600px; /* Maximum width for larger screens */
+    max-height: 800px; /* Limit the height of the form content */
+    overflow-y: hidden; /* Hide content that exceeds the container */
+    margin-top: 10rem; /* Add spacing between .register-form-2 and .form-content2 */
+    padding: 30px; /* Add some padding inside .form-content2 for better spacing */
+  }
+  
+  .register-form-2 h3 {
+    margin-bottom: 20px;
+    color: #0D506E;
+    font-style: italic;
+  }
+  
+  /* Styles for the right container 2 */
+ 
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    100% {
+      opacity: 0.65;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Media query for responsive design */
+  @media (min-width: 768px) {
+    /* Styles for screens with a minimum width of 768px or larger */
+    .form-container-secundario {
+      flex-direction: row; /* Arrange form elements horizontally on larger screens */
+      justify-content: space-between; /* Add space between form sections on larger screens */
+    }
+  
+   
+  }
+  

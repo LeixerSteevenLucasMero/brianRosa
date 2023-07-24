@@ -1,0 +1,121 @@
+/* userslist.css */
+
+/* Estilos generales */
+.title-usuario {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-user-button {
+    font-size: 13px;
+    padding: 9px 10px;
+    color: #03374e !important;
+    background-color: #c5c7ca !important;
+    border: none !important;
+    font-weight: bold !important; /* Texto en negrita */
+    margin: 5px; /* Márgenes (arriba/abajo - izquierda/derecha) */
+  }
+  
+  /* Estilos para el icono de configuración */
+  .config-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para el desplegable */
+  .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+    z-index: 1000;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  /* Estilos para la paginación */
+  .pagination .button {
+    font-size: 5px;
+    padding: 5px 5px;
+    color: #052e41 !important;
+    border: none !important;
+    font-weight: bold !important; /* Texto en negrita */
+    margin: 5px; /* Márgenes (arriba/abajo - izquierda/derecha) */
+  }
+  
+  /* Agrega estilos a los enlaces de paginación */
+  .pagination-link {
+    cursor: pointer;
+    color: rgb(22, 22, 128); /* Color del texto */
+    text-decoration: underline; /* Subrayado */
+    margin: 0 5px; /* Espaciado entre enlaces */
+  }
+  
+  /* Estilo para el texto "Página x de y" */
+  .page-info {
+    margin: 0 10px; /* Espaciado entre el texto y los enlaces */
+  }
+  
+  /* Media queries para hacer la página responsive */
+  @media screen and (max-width: 768px) {
+    /* Estilos para pantallas de hasta 768px de ancho */
+    .title-usuario {
+      font-size: 30px;
+    }
+  
+    .add-user-button {
+      font-size: 12px;
+    }
+  
+    .config-icon {
+      font-size: 20px;
+    }
+  
+    .pagination .button {
+      font-size: 10px;
+      padding: 3px 5px;
+    }
+  
+    .pagination-link {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    /* Estilos para pantallas de hasta 576px de ancho */
+    .title-usuario {
+      font-size: 24px;
+    }
+  
+    .add-user-button {
+      font-size: 10px;
+      padding: 6px 8px;
+    }
+  
+    .config-icon {
+      font-size: 18px;
+    }
+  
+    .pagination .button {
+      font-size: 8px;
+      padding: 2px 4px;
+    }
+  
+    .pagination-link {
+      font-size: 10px;
+    }
+  }
+  

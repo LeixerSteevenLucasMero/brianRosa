@@ -1,0 +1,99 @@
+/* Estilos generales de la tabla */
+.table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .table {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #faf0f0; /* Cambia el fondo de la tabla aquí */
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    /* Espaciado adicional entre filas */
+    line-height: 1.6;
+  }
+  
+  /* Estilos al colocar el puntero sobre una fila */
+  .table tbody tr:hover {
+    background-color: #588ca1;
+    color: white;
+    cursor: cell;
+  }
+  
+  /* Estilos para la primera fila (thead) */
+  .table thead tr {
+    background-color: #0d506e;
+    color: white;
+  }
+  
+  /* Estilos del botón de agregar reserva */
+  .add-reservation-button.primary {
+    background-color: #0d506e;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: grab;
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-reservation-button:hover {
+    background-color: #0b425e;
+  }
+  
+  /* Estilos para el filtro */
+  .filter-input {
+    width: 300px; /* Cambia el ancho del filtro aquí */
+    height: 30px; /* Cambia la altura del filtro aquí */
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #141414;
+  }
+  
+  /* Estilos para centrar contenido */
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Media query para pantallas pequeñas */
+  @media screen and (max-width: 768px) {
+    .table {
+      font-size: 12px;
+    }
+  
+    .add-reservation-button.primary {
+      /* Centrar el botón en pantallas pequeñas */
+      margin: 20px auto;
+    }
+  
+    .filter-input {
+      width: 200px;
+
+    }
+ 
+     /* Ajusta el tamaño de los encabezados de columna para pantallas más pequeñas */
+    .table th,
+    .table td {
+      padding: 8px; /* Reduce el espacio entre celdas */
+      font-size: 12px;
+    }
+  }
+  
